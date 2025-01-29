@@ -1288,7 +1288,7 @@ class Bit(BitcoinMixin, Coin):
                     '79612b4beb89937e862131f3df875a27')
     PEER_DEFAULT_PORTS = {"t": "50001", "s": "50002"}
     PEERS = [
-     
+     'electrum.followthebit.org t50001 s50002',
     ]
     TX_COUNT = 45410
     TX_COUNT_HEIGHT = 39999
